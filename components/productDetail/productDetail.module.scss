@@ -1,0 +1,46 @@
+.detail_main {
+    width: 100%;
+    display: flex;
+}
+
+.detail {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.detail_slider_right {
+    width: 50%;
+    height: 400px;
+    display: flex;
+    margin-top: 16px;
+}
+
+.slider_list {
+    width: 25%;
+}
+
+.slider_list ul {
+    margin: 0;
+    width: 100%;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.slider_swiper {
+    width: 75%;
+}
+
+.detail_left {
+    background: blue;
+    width: 50%;
+    margin-top: 16px;
+}
+
+.slider_swiper {
+    width: 100%;
+    height: 100%;
+    background: #fff;
+}
