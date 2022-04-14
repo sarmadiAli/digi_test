@@ -1,0 +1,26 @@
+.btn_dark {
+    background: #555555;
+    border-radius: 5px;
+    color: #fff;
+    width: 235px;
+    height: 40px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.seller_item {
+    border: 1px solid #EFEFEF;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.seller_item_main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+    margin: auto;
+}
