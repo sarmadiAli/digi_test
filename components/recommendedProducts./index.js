@@ -4,7 +4,8 @@ import { Pagination, Navigation } from "swiper";
 import Image from 'next/image';
 export default function RecommendedProducts() {
     return (
-        <div>
+        <div style={{marginTop:'15px'}}>
+            <p>محصولات پیشنهادی</p>
             <Swiper
                 slidesPerView={1}
                 spaceBetween={10}

@@ -4,6 +4,8 @@ import { Navigation } from "swiper";
 import Image from 'next/image';
 export default function UserComment() {
     return (
+        <div>
+            <p style={{marginBottom:'10px'}}> نظرات کاربران</p>
         <Swiper
             slidesPerView={1}
             spaceBetween={10}
@@ -119,6 +121,7 @@ export default function UserComment() {
                 </div>
             </SwiperSlide>
         </Swiper>
+        </div>
 
     )
 }

@@ -98,6 +98,10 @@
     margin-top: 15px;
 }
 
+.detail_texts ul {
+    margin-right: 15px;
+}
+
 .detail_texts ul li {
     list-style: disc !important;
     color: #3C3C3C;
@@ -141,7 +145,7 @@
     align-items: center;
 }
 
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 640px) {
     .header_menu {
         display: none;
     }

@@ -1,0 +1,37 @@
+.footer {
+    border: 1px solid #EFEFEF;
+    display: none;
+}
+
+.btn_dark {
+    background: #555555;
+    border-radius: 5px;
+    color: #fff;
+    width: 235px;
+    height: 40px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn_light {
+    background: #E5E5E5;
+    border-radius: 5px;
+    color: #555555;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 640px) {
+    .footer {
+        border: 1px solid #EFEFEF;
+        display: flex;
+        justify-content: space-evenly;
+        padding: 10px;
+    }
+}

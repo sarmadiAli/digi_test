@@ -3,8 +3,10 @@ import React from 'react'
 import Link from 'next/link'
 import style from './header.module.scss'
 import Image from 'next/image';
+import { useRouter } from 'next/router';
 
 export default function Header() {
+    const router = useRouter();
     return (
         <div className={style.header}>
             <div className={style.header_main}>
@@ -16,19 +18,39 @@ export default function Header() {
                 <div className={style.header_menu}>
                     <ul>
                         <li>
-                            <Link href='/'>صفحه اصلی</Link>
+
+                            <Link href='/'>
+                                <a className={router.pathname == "/" ? "active" : ""}>
+                                    صفحه اصلی
+                                </a>
+                            </Link>
                         </li>
                         <li>
-                            <Link href='/products'>محصولات</Link>
+                            <Link href='/products'>
+                                <a className={router.pathname == "/products" ? "active" : ""}>
+                                  محصولات
+                                </a>
+                            </Link>
                         </li>
                         <li>
-                            <Link href='/services'>خدمات</Link>
+                            <Link href='/services'>
+                                <a className={router.pathname == "/services" ? "active" : ""}>
+                                   خدمات
+                                </a>
+                            </Link>
                         </li>
                         <li>
-                            <Link href='/blog'>وبلاگ</Link>
+                            <Link href='/blog'>
+                                <a className={router.pathname == "/blog" ? "active" : ""}>
+                                   وبلاگ
+                                </a>
+                            </Link>
                         </li>
                         <li>
-                            <Link href='/about-us'>درباره ما</Link>
+                            <Link href='/about-us'>
+                                <a className={router.pathname == "/about-us" ? "active" : ""}>
+                                    درباره من
+                                </a></Link>
                         </li>
                     </ul>
                 </div>
