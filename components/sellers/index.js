@@ -19,10 +19,12 @@ export default function Sellers() {
 
                                 <p style={{ fontSize: '12px', marginRight: '5px' }} >6 ماه ضمانت</p></div>
                         </div>
-                        <div><p>849,000 تومان</p></div>
-                        <div style={{ display: 'flex', }}>
-                            <p style={{ marginLeft: '5px' }}>4.3</p>
-                            <Image src='/images/Vector.svg' width={20} height={20} />
+                        <div className={style.start_box} >
+                            <div><p>849,000 تومان</p></div>
+                            <div style={{ display: 'flex', }}>
+                                <p style={{ marginLeft: '5px' }}>4.3</p>
+                                <Image src='/images/Vector.svg' width={20} height={20} />
+                            </div>
                         </div>
                         <div className={style.btn_dark}>همین حالا بخرید</div>
                     </div>

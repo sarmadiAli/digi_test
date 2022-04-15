@@ -24,3 +24,24 @@
     width: 95%;
     margin: auto;
 }
+
+.start_box {
+    display: flex;
+    justify-content: space-between;
+    width: 34%;
+}
+
+@media screen and (max-width: 540px) {
+    .btn_dark {
+        display: none;
+    }
+    .start_box {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: flex-end;
+        width: 34%;
+    }
+    .start_box>div>p {
+        font-size: 13px;
+    }
+}

@@ -7,6 +7,24 @@ export default function ProductDetail() {
     <div className={style.detail}>
       <div className={style.detail_main}>
         <div className={style.detail_slider_right}>
+
+        <div className={style.slider_swiper}>
+            <SwiperDetaile />
+            <div className={style.footer_box} style={{marginTop:'25px'}}>
+              <div  className={style.score_box} >
+              <span style={{color:'#9C9C9C' , fontSize:'12px' , marginLeft:'5px'}}>(1250)</span>
+                <span>  <Image src='/images/Vector.svg' width={15} height={15} /></span>
+                <span>  <Image src='/images/Vector.svg' width={15} height={15} /></span>
+                <span>  <Image src='/images/Vector.svg' width={15} height={15} /></span>
+                <span>  <Image src='/images/Vector.svg' width={15} height={15} /></span>
+                <span>  <Image src='/images/Vector.svg' width={15} height={15} /></span>
+              </div>
+              <div className={style.share_box} > 
+                <span style={{marginLeft:'10px'}}><Image src='/images/heart.svg'  width={20} height={20}/></span>
+                <span><Image src='/images/share-2.svg' width={20} height={20} /></span>
+              </div>
+            </div>
+          </div>
           <div className={style.slider_list}>
             <ul>
               <li>
@@ -24,23 +42,9 @@ export default function ProductDetail() {
 
             </ul>
           </div>
-          <div className={style.slider_swiper}>
-            <SwiperDetaile />
-            <div className={style.footer_box} style={{marginTop:'25px'}}>
-              <div  className={style.score_box} >
-              <span style={{color:'#9C9C9C' , fontSize:'12px' , marginLeft:'5px'}}>(1250)</span>
-                <span>  <Image src='/images/Vector.svg' width={15} height={15} /></span>
-                <span>  <Image src='/images/Vector.svg' width={15} height={15} /></span>
-                <span>  <Image src='/images/Vector.svg' width={15} height={15} /></span>
-                <span>  <Image src='/images/Vector.svg' width={15} height={15} /></span>
-                <span>  <Image src='/images/Vector.svg' width={15} height={15} /></span>
-              </div>
-              <div className={style.share_box} > 
-                <span style={{marginLeft:'10px'}}><Image src='/images/heart.svg'  width={20} height={20}/></span>
-                <span><Image src='/images/share-2.svg' width={20} height={20} /></span>
-              </div>
-            </div>
-          </div>
+        
+
+
         </div>
         <div className={style.detail_left}>
           <Detail />
@@ -92,7 +96,7 @@ function Detail() {
           <div className={style.badge}>20%</div>
         </span>
       </div>
-      <div className={style.btn_group} style={{ justifyContent: 'space-between', marginTop: '25px' }} >
+      <div className={style.btn_buy_group} style={{ justifyContent: 'space-between', marginTop: '25px' }} >
         <div className={style.btn_dark}> همین حالا بخرید</div>
         <div className={style.btn_light}> افزودن به سید خرید</div>
       </div>

@@ -35,3 +35,9 @@
     line-height: 28px;
     color: #838383;
 }
+
+@media screen and (max-width: 540px) {
+    .header_menu {
+        display: none;
+    }
+}
